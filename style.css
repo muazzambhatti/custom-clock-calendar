@@ -1,34 +1,37 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: pink;
     font-family: sans-serif;
 }
 
 #h_m_s {
     margin: 0px auto;
-    width: 700px;
+    width: 500px;
     box-sizing: border-box;
     border: 3px solid black;
     padding: 5px;
     display: flex;
     justify-content: space-around;
 }
+.time_unit {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .time_unit h2 {
     text-align: center;
 }
-.digit_containers {
-    width: 200px;
-    height: 130px;
+
+.digit_display {
+    width: 120px;
+    height: 80px;
     border: 1px solid black;
-    margin: 5px 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
-
-.single_digit {
-    width: 80px;
-    height: 100px;
-    border: 1px solid black;
+.time_numbers {
+    font-size: 60px;
 }

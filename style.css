@@ -173,4 +173,8 @@ margin-top: 40px;
     #MK_heading {
         font-size: x-large;   
     }
+    #pyramid_bg_box {
+        width: 99vw;
+        /* height: 480px; */
+    }
 }

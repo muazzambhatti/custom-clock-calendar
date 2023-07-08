@@ -169,16 +169,8 @@ margin-top: 40px;
     align-items: center;
     letter-spacing: 2px;
 }
-/* @media screen and (max-width: 430px) {
-    #h_m_s {
-        width: 95%;
-        
+@media screen and (max-width: 430px) {
+    #MK_heading {
+        font-size: x-large;   
     }
-    .digit_display {
-        width: 27vw;
-        height: 70px;
-    }
-    .time_numbers{
-        font-size: 45px;
-    }
-} */
+}
